@@ -61,6 +61,7 @@ Notable arguments include:
 Our framework is evaluated on diverse datasets:
 - **Low-field MRI datasets:** M4RAW, LISA
 - **High-field MRI datasets:** fastMRI, HCP1200
+  
 Run the code
 ```bash preprocessing_images.py ```
 to process images in the proper format for PTA_hybrid and getting the masks.
