@@ -63,7 +63,7 @@ Our framework is evaluated on diverse datasets:
 - **High-field MRI datasets:** fastMRI, HCP1200
   
 Run the code
-```bash preprocessing_images.py ```
+```python preprocessing_images.py ```
 to process images in the proper format for PTA_hybrid and getting the masks.
 Then prepare two directories to host training images from domain A '/path/to/data/trainA' and from domain B '/path/to/data/trainB' respectively. You can train the model with the dataset flag '--dataroot /path/to/data'.
 Similarly, you need to prepare two directories:'/path/to/data/testA' and '/path/to/data/testB' during test time. All data are suggested to converting to 'png' format. 
