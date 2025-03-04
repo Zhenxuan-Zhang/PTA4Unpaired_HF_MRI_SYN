@@ -27,13 +27,11 @@ We introduce the **Pretext Task Adversarial (PTA) Learning Framework**, which in
 
 Extensive experiments on low-field to ultra high-field MRI synthesis demonstrate **state-of-the-art performance**, achieving **16.892 FID, 1.933 IS, and 0.324 MS-SSIM**, enabling the generation of high-quality high-field-like MRI data to enhance training datasets for downstream applications.
 
-🔗 **GitHub Repository:** [PTA4Unpaired_HF_MRI_SYN](https://github.com/Zhenxuan-Zhang/PTA4Unpaired_HF_MRI_SYN)
-
 ---
 
 ## ⚙️ Installation
 ```bash
-git clone https://github.com/Zhenxuan-Zhang/PTA4Unpaired_HF_MRI_SYN.git
+git clone xxx.git
 cd PTA4Unpaired_HF_MRI_SYN
 pip install -r requirements.txt
 ```
@@ -89,7 +87,3 @@ PTA achieves superior synthesis quality, maintaining both **fidelity and diversi
 ## 📜 License
 This project is licensed under the **MIT License**.
 
----
-
-## 📞 Contact
-For inquiries or collaborations, open an issue on [GitHub](https://github.com/Zhenxuan-Zhang/PTA4Unpaired_HF_MRI_SYN/issues).
